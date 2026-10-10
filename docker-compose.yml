@@ -1,0 +1,21 @@
+services:
+  inflight-postgres:
+    image: postgres:16-alpine # Alpine versiyonu sadece ~90 MB'tır
+    container_name: inflight_retail_postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgrespw
+      POSTGRES_DB: inflight_retail_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m" # Log dosyası en fazla 10 MB olsun
+        max-file: "3"   # Eski loglardan en fazla 3 adet saklasın
+    restart: unless-stopped
+
+volumes:
+  postgres_data:

@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "arcKgf/53tTPrRGlDPAUfedgkEcShAEX4Cr3FmCAa5M=",
+  "Source": "InflightRetail.Api",
+  "BasePath": "_content/InflightRetail.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
