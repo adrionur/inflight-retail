@@ -1,0 +1,53 @@
+## Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+docs/_site/
+
+## Visual Studio cache, options, and user data
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+## JetBrains Rider
+.idea/
+*.sln.iml
+
+## User-specific files & local settings
+*.rsuser
+*.suo
+*.userprefs
+appsettings.*.local.json
+appsettings.local.json
+
+## Publish & Package outputs
+[Pp]ublish/
+*.nupkg
+*.snupkg
+*.publishsettings
+
+## Test results & Coverage
+TestResults/
+[Tt]est[Rr]esult*/
+*.trx
+coverage.cobertura.xml
+*.coverage
+*.coveragexml
+
+## Crash dumps and symbol caches
+*.stackdump
+*.pdb
+
+## OS generated files
+.DS_Store
+Thumbs.db
